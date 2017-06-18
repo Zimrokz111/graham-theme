@@ -1,0 +1,592 @@
+/*
+Theme Name : Graham Solutionz
+Theme URI  : http://grahamsolutionz.com/chic/
+Description: This is a Woo-commerce website
+Author Name: Nishan Mazumder
+Author URI : www.nishanmazumder.com
+Tags       : Graham, woo-commerce, garments product, product, all product with price
+Version    : 1.0.0
+*/
+
+html{
+	color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	margin:0px auto;
+	overflow-x:hidden;
+}
+
+p,h3,h2,a{
+	font-family: Yanone Kaffeesatz, sans-serif;
+ }
+h2{
+	font-weight:bold;
+	text-shadow: .5px .5px 1px #000;
+} 
+ul li {
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+.col-md-12, .col-md-6,
+.col-md-4, .col-md-3,
+.col-md-8{
+	padding:0px !important;
+	margin:0px !important;
+}
+.border-only{
+	border:3px solid #F1153D;
+}  
+/*********************
+	Header Section
+**********************/
+header{
+	background:#28304D;
+	padding:20px 0px 20px 0px;
+	width: 102.4%;
+	margin-left: -15px;
+}
+.logo{
+	width:30%;
+}
+.left-element>a>i{
+	display:inline-block;
+	color:#fff;
+	transition:.5s;
+}
+.left-element>a>i:hover{
+	color:#F1153D;
+}
+/*********************
+	Search Option
+*********************/
+#search {
+    float: right;
+    margin-top: 0px;
+    width: 250px;
+}
+
+.search {
+    padding: 5px 0;
+    width: 230px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    float: left;
+    line-height: 22px;
+	background:transparent !important;
+}
+
+    .search input {
+        position: absolute;
+		width: 0px;
+		float: Left;
+		margin-left: 210px;
+		-webkit-transition: all 0.7s ease-in-out;
+		-moz-transition: all 0.7s ease-in-out;
+		-o-transition: all 0.7s ease-in-out;
+		transition: all 0.7s ease-in-out;
+		height: 45px;
+		line-height: 0px;
+		padding: 0 0 0 10px;
+		border-radius: 5px;
+		background: transparent !important;
+		bottom: -15px;
+		right: 40px;
+    }
+
+        .search:hover input, .search input:focus {
+            width: 300px;
+            margin-left: 0px;
+        }
+
+.btn-search{
+    height: 45px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    border-radius:5px;
+}
+/*search end*/
+
+.left-element>a{
+	float:left;
+	margin:15px;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 10px !important;
+    margin-bottom: 0px !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+
+/*********************
+	Nav Section
+**********************/
+.navbar{
+	margin-bottom:0px !important;
+}
+.navbar-default {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.navbar-nav{
+	margin-right:180px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #28304D;
+	font-weight:bold;
+	font-size:24px;
+	font-family: Yanone Kaffeesatz, sans-serif;
+	margin: 0px 10px 0px 10px;
+	text-shadow:.5px .5px .5px #000;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color: #F1153D;
+}
+.dropdown-menu > li > a {
+    color: #28304D;
+	font-weight:bold;
+	font-size:24px;
+	font-family: Yanone Kaffeesatz, sans-serif;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+   color: #F1153D !important;
+    text-decoration: none;
+    background-color: transparent !important;
+}
+.nav-margin{
+	margin-left: -30px;
+}
+
+/*********************
+	Content Section
+**********************/
+/*parallax*/
+.parallux-body{
+	display:none;
+	width:102.4%;
+	margin-left: -15px !important;
+}
+.parallux-background{
+	display:none;
+	background:url('../img/minecraft-wallpaper-hd-iphone.jpg') top center no-repeat;
+	padding:50px;
+}
+.parallux-background>h1{
+	display:none;
+	color:#F1153D;
+	font-family: Yanone Kaffeesatz, sans-serif;
+	font-size:60px;
+	font-weight:bold;
+}
+/*********************
+	first column
+**********************/
+.check-out{
+	display:none;
+	width: 102.4%;
+	margin-left: -15px !important;
+}
+.check-out>a>h2{
+	display:none;
+	color:#fff;
+	font-family: Yanone Kaffeesatz, sans-serif;
+	font-weight:bold;
+	font-size: 40px;
+}
+.secret-news>.hovereffect>img{
+	height: 394px;
+	width: 649px;
+}
+.carousel-inner>.item>img{
+	height: 394px;
+	width: 637px;
+}
+/**second column**/
+
+/**third column**/
+.feature-girl>.hovereffect>img{
+	height: 541px;
+	width: 431px;
+}
+.feature-boy>.hovereffect>img{
+	height: 541px;
+	width: 431px;
+}
+.feature-hat>.hovereffect>img{
+	height: 329px;
+	width: 439px;
+}
+
+.feature-brand2>.hovereffect>img{
+	height: 206px;
+	width: 229px;
+}
+.feature-social>.hovereffect>img{
+	height: 206px;
+	width: 229px;
+}
+
+/**fourth column**/
+.toys-brand1>.hovereffect>img{
+	height: 206px;
+	width: 229px;
+}
+.feature-other>.hovereffect>img{
+	height: 182px;
+	width: 449px;
+}
+
+/*********************
+	Footer Section
+**********************/
+.footer_area{
+	height:auto;
+	width:102.4% !important;
+	margin-left:-15px;
+	padding: 30px 40px 30px 30px;
+}
+.footer_logo>img{
+	width: 150px;
+	padding-top: 50px;
+	margin-left: 57px;
+}
+.list-item>a{
+	display:block;
+	font-size:18px;
+	color:#fff;
+	transition:.5s;
+	text-shadow:.5px .5px 1px #000;
+}
+.list-item>a:hover{
+	color:#D94533;
+}
+.footer-list{
+	padding-left:15px;
+}
+ .social-link-item>.list-group>.list-item{
+	float:left;
+	margin:5px;
+} 
+.footer_last{
+	height:auto;
+	width:102.4% !important;
+	margin-left:-15px;
+	background:#000;
+	padding:10px 20px 10px 20px;
+}
+.footer_last>.row>.col-md-12>p{
+	color:#fff;
+	font-size:16px;
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+@media only screen and (max-width:1290px){
+
+}
+
+@media only screen and (max-width:1030px){
+.navbar-nav{
+	margin-right:100px;
+}
+.navbar-default .navbar-nav > li > a {
+    font-size:24px;
+	margin: 0px 5px 0px 5px;
+}
+.parallux-body{
+	width:103%;
+	margin-left: -15px !important;
+}
+.check-out{
+	width: 103%;
+	margin-left: -15px !important;
+}
+}
+
+@media only screen and (max-width:780px){
+.logo{
+	margin-left:270px;
+}
+.left-element{
+	margin-left:70px;
+}
+.search:hover input, .search input:focus {
+            width: 200px;
+            margin-left: 0px;
+        }
+.navbar-nav{
+	margin-right:0px;
+}
+.navbar-default .navbar-nav > li > a {
+    font-size:24px;
+	margin: 0px 0px 0px 0px;
+}
+.navbar-toggle{
+display:none !important;
+}
+.parallux-body{
+	width:104%;
+}
+.secret-news>.hovereffect>img{
+	height: 394px;
+	width: 762px;
+}
+.carousel-inner>.item>img{
+	height: 394px;
+	width: 762px !important;
+}
+.check-out{
+	width: 104%;
+	margin-left: -15px !important;
+}
+.feature-hat>.hovereffect>img{
+	height: 500px;
+	width: 780px;
+}
+.feature-brand2>.hovereffect>img{
+	height: 300px;
+	width: 400px;
+}
+.feature-social>.hovereffect>img{
+	height: 300px;
+	width: 400px;
+}
+
+.toys-brand1>.hovereffect>img{
+	height: 300px;
+	width: 400px;
+}
+.feature-other>.hovereffect>img{
+	height: 500px;
+	width: 780px;
+}
+.footer_area{
+	width:104% !important;
+	margin-left:-15px;
+}
+}
+
+@media only screen and (max-width:650px){
+header{
+	width:105%;
+}
+.logo{
+	margin-left:210px;
+}
+.left-element{
+	margin-left:0px;
+}
+.parallux-body{
+	width:105%;
+}
+.check-out{
+	width: 105%;
+}
+.feature-girl>.hovereffect>img{
+	height: 641px;
+	width: 634px;
+}
+.feature-boy>.hovereffect>img{
+	height: 641px;
+	width: 634px;
+}
+}
+@media only screen and (max-width:490px){
+header{
+	width:106.7%;
+}
+.parallux-body{
+	width:106.7%;
+}
+.check-out{
+	width: 106.7%;
+}
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
